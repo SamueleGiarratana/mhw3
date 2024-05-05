@@ -1,0 +1,484 @@
+
+body{
+    margin-top:40px;
+    background-color: white;
+    margin-bottom: 0px;
+}
+
+article{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+article img{
+height: 50px;
+}
+
+
+#menu{
+    display: flex;
+    justify-content:space-between;
+   
+}
+
+
+.info{
+    text-align: left;   
+    
+}
+
+.info p{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.apc img{
+    height: 30px;
+}
+.apc a{
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    padding: 10px;
+    
+}
+
+
+
+
+
+nav{
+    
+    margin-top: 50px;
+    margin-left:300px ;
+    margin-right:200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    }
+
+
+
+   
+.cerca img{
+    height: 30px;
+    
+}
+.cerca a{
+    
+    text-decoration: underline;   
+}
+
+
+
+
+
+
+header{
+    height: 50px;
+    background-color: white;
+    margin-top:30px;
+    text-align: center;
+    font-family:sans-serif;
+    font-family: 'Viaoda Libre', 'Helvetica';
+}
+
+#flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+section img{
+     height: 800px;
+}
+
+.foto1 p{
+margin-top: -200px;
+display: block;
+text-align: center;
+color: black;
+font-size: 50px;
+font-weight: bold;
+}
+.look,.cult{
+    cursor: pointer;
+}
+
+
+.foto1 div {
+    margin-top: -10px;
+    display: inline-block;
+    margin-left: 80px;
+    height: 20px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    }
+
+
+
+
+
+.min{
+    margin-top: -320px;
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    }
+.max{
+    margin-top:-20px;
+    display: block;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}   
+
+.foto2 div {
+    
+    display: inline-block;
+    margin-left: 150px;
+    height: 20px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    }
+
+
+
+h2{
+    margin-left: 250px;
+}
+
+
+.botton{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    height: 70px;
+    margin-left: 220px;
+    margin-right: 220px;
+
+}
+
+.botton a{
+    font-weight: bold;
+    font-size: 24px;
+    color:black;
+    border: 2px solid black;
+    padding:5px;
+    border-radius: 50px;
+}
+
+
+.prodotti{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+.prodotti img{
+height: 320px;
+}
+
+.descrizione_prodotti{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+}
+
+
+
+#bimbi{
+    margin-top: 50px;
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.dim img{
+    height: 800px;
+}
+
+.b1 p{
+    margin-top: -200px;
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.b1 a{
+    margin-top: -10px;
+    display: inline-block;
+    margin-left: 340px;
+    height: 20px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+#bimbi p{
+    height: 60px;
+}
+
+.b2 p{
+    margin-top: -200px;
+    display: block;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.b2 a{
+    margin-top: -10px;
+    display: inline-block;
+    margin-left: 340px;
+    height: 20px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.Membri{
+    margin-left:250px;
+    margin-right:250px;
+    margin-top: 100px;
+    background-color: black;
+    height: 200px;
+}
+
+.Membri h3{
+    color: white;
+    text-align: center;
+}
+.Membri p{
+    color:white;
+    text-align: center;
+}
+.Membri a{
+    margin-left: 400px;
+    height: 20px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.Nascosto{
+    display: none;
+}
+
+
+#casa{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.arredo img{
+   height: 900px ;
+}
+.pa p{
+    color:black;
+    text-align: center;
+    margin-top: -200px;
+    font-size: 40px;
+}
+.pa a{
+   margin-left: 180px;
+    height: 20px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.foot{
+ 
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    background-color: lightgray;
+    height: 500px;
+    font-family: 'Oswald',Helvetica;
+}
+
+
+
+
+.Reparto p{
+    
+    font-size: 20px;
+}
+
+.Reparto a{
+    font-size: 15px;
+    color: black;
+   
+}
+
+.Azienda p{
+    font-size: 20px;
+}
+.Azienda a{
+    font-size: 15px;
+    color: black;
+   
+}
+
+
+.Aiuto p{
+    font-size: 20px;
+}
+
+.Aiuto a{
+    font-size: 15px;
+    color: black;
+    
+}
+
+
+
+.Iscrizione{
+    font-size: 20px;
+}
+.Iscrizione a{
+    font-size: 15px;
+    color: black;
+    
+}
+
+
+.social{
+   
+    background-color: lightgray;
+    height: 100px;
+    width:100%;
+    
+}
+
+.instagram img{
+    height: 30px;
+    margin-left: 590px;
+    margin-top: 50px;
+}
+
+.facebook img{
+    
+ margin-left: 30px;
+    height: 30px;
+}
+
+.tiktok img{
+    margin-left: 30px;
+    height: 30px;
+    
+}
+.youtube img{
+    margin-left: 30px;
+    height: 30px;
+    
+}
+.pinterest img{
+    margin-left: 30px;
+    height: 30px;
+    
+}
+
+.hem{
+    
+    background-color: lightgray;
+    
+}
+
+.hem img{
+    margin-top: 40px;
+    margin-left:49%;
+    margin-bottom: 20px;
+    height: 40px;
+
+}
+
+
+
+.Spotify {
+    text-align: center;
+    background-color: lightgreen;
+    margin-bottom: 50px;
+    border:3px solid black;
+    font-size: 20px;
+    
+}
+
+.Spotify p{
+    font-size: 20px;
+}
+
+
+#album-view {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  #album-view .album {
+    margin-top:30px ;
+    border: 1px solid gray;
+    padding: 30px;
+  }
+  
+  #album-view img {
+    height: 200px;
+  }
+
+
+  #dress-view{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+  }
+
+  #dress-view img{
+    height: 200px;
+    margin: 5px ;
+  }
+
+  .search_prodotti {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .search_prodotti form {
+    padding: 20px;
+  }
+
